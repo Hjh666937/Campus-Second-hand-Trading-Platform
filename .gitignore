@@ -1,0 +1,39 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.coverage
+
+# ---------- Node ----------
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# ---------- 环境变量与密钥（含数据库密码，勿提交） ----------
+.env
+.env.local
+*.pem
+*.key
+
+# ---------- 运行时生成 ----------
+backend/uploads/*
+backend/*.log
+*.log
+
+# ---------- 课程报告与备份（不进仓库） ----------
+Web_development_template.doc
+*.doc.bak
+~$*
+
+# ---------- 截图与临时素材 ----------
+.screenshots/
+
+# ---------- 编辑器 / 系统 ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
